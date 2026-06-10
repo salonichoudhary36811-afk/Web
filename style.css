@@ -1,0 +1,31 @@
+@media (max-width: 768px) { body{
+  background-color: #b5b0c1;
+  margin:120px 120px;
+}}
+
+main{
+  margin-bottom:40px;
+  font-family:Nautilus Pompiliu;
+}
+h1{
+     font-family:'Poppins',sans-serif;
+    font-weight:600;
+    line-height:1.1;
+}
+h2{
+  font-weight:600;
+  font-family:arial;
+}
+
+.div
+{
+  max-width:240px;
+  height:auto;
+  background-color: #cecdd2;
+  color:black;
+  border-radius:14px;
+  text-align:center;
+  border:0px solid black;
+  flex-wrap:wrap;
+  gap:15px;
+}

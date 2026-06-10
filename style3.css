@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#ddd8e5;
+}
+
+/* NAVBAR */
+
+main{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+    margin:20px;
+    background:white;
+    position:relative;
+}
+
+.ok{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav{
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+}
+
+/* Hamburger */
+
+.menu-toggle{
+    display:none;
+    font-size:30px;
+    cursor:pointer;
+}
+
+/* HERO */
+
+.inp{
+    width:60%;
+    padding:10px;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+/* Tablet */
+
+@media (max-width:992px){
+
+    h1{
+        font-size:40px;
+    }
+
+    .inp{
+        width:100%;
+    }
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+    main{
+        flex-wrap:wrap;
+        padding:20px;
+    }
+
+    .menu-toggle{
+        display:block;
+    }
+
+    nav{
+        display:none;
+        flex-direction:column;
+        width:100%;
+        text-align:center;
+        margin-top:15px;
+    }
+
+    nav.active{
+        display:flex;
+    }
+
+    .some{
+        width:100%;
+        order:3;
+    }
+
+    h1{
+        font-size:30px;
+    }
+
+    .inp{
+        width:100%;
+        margin-bottom:10px;
+    }
+
+    .btn{
+        width:100%;
+    }
+}
